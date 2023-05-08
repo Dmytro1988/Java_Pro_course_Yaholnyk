@@ -7,55 +7,48 @@ public class Main {
         Hw_3_tasks hw = new Hw_3_tasks();
 
         System.out.println("task 1");
-        hw.forPrintFrom1to99();
+        hw.ForPrintFrom1to99();
 
         System.out.println("task 2");
-        hw.factorialN();
+        hw.FactorialN();
 
         System.out.println("task 3");
-        hw.whilePrintFrom1to99();
+        hw.WhilePrintFrom1to99();
 
         System.out.println("task -------------------------------");
-        hw.whilefactorialN();
+        hw.WhilefactorialN();
 
         System.out.println("task 4");
-        hw.dowhilePrintFrom1to99();
+        hw.DoWhilePrintFrom1to99();
 
         System.out.println("task --------------------------------");
-        hw.dowhilefactorialN();
+        hw.DoWhilefactorialN();
 
         System.out.println("task 5");
-        hw.powerXN();
+        hw.PowerXN();
 
         System.out.println("task 6");
-        hw.firstTenNumbers();
+        hw.FirstTenNumbers();
 
         System.out.println("task 7");
-        hw.multipliOnXTable();
+        hw.MultipliOnXTable();
 
         System.out.println("task 8");
-        hw.firstTenOddNumber();
+        hw.FirstTenOddNumber();
 
 
         System.out.println("task 9");
-        hw.minNumberOfArr();
+        hw.MinNumberOfArr();
 
         System.out.println("task 10");
-        hw.maxNumberOfArr();
+        hw.MaxNumberOfArr();
 
 
         System.out.println("task 11");
-        hw.replaceMaxAndMinNumArr();
-
-
-
-
+        hw.ReplaceMaxAndMinNumArr();
 
 
     }
-
-
-
 
 }
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Hw_3_tasks {
-    public void forPrintFrom1to99() {
+    public void ForPrintFrom1to99() {
 
         int i;
         for (i = 1; i <= 99; i += 2) {
@@ -12,7 +12,7 @@ public class Hw_3_tasks {
         }
     }
 
-    public void factorialN() {
+    public void FactorialN() {
 
         int i;
         int n;
@@ -32,7 +32,7 @@ public class Hw_3_tasks {
     }
 
 
-    public void whilePrintFrom1to99() {
+    public void WhilePrintFrom1to99() {
 
         int a = 1;
 
@@ -43,7 +43,7 @@ public class Hw_3_tasks {
     }
 
 
-    public void whilefactorialN() {
+    public void WhilefactorialN() {
 
 
         int n = 5;
@@ -59,7 +59,7 @@ public class Hw_3_tasks {
         }
     }
 
-    public void dowhilePrintFrom1to99() {
+    public void DoWhilePrintFrom1to99() {
 
         int a = 1;
         do {
@@ -69,7 +69,7 @@ public class Hw_3_tasks {
     }
 
 
-    public void dowhilefactorialN() {
+    public void DoWhilefactorialN() {
 
         int n = 5;
         int factorial = 1;
@@ -83,7 +83,7 @@ public class Hw_3_tasks {
     }
 
 
-    public void powerXN() {
+    public void PowerXN() {
 
 
         int x = 2;
@@ -100,7 +100,7 @@ public class Hw_3_tasks {
     }
 
 
-    public void firstTenNumbers() {
+    public void FirstTenNumbers() {
 
         int i;
         int num = 0;
@@ -113,7 +113,7 @@ public class Hw_3_tasks {
     }
 
 
-    public void multipliOnXTable() {
+    public void MultipliOnXTable() {
 
         int x;
         int i = 5;
@@ -129,7 +129,7 @@ public class Hw_3_tasks {
     }
 
 
-    public void firstTenOddNumber() {
+    public void FirstTenOddNumber() {
 
         int i;
         int n = 11;
@@ -153,7 +153,7 @@ public class Hw_3_tasks {
 
 
 
-    public void minNumberOfArr() {
+    public void MinNumberOfArr() {
 
         int i;
         int[] mas = {5, 9, 2, -1, 6, 15, 10};
@@ -169,7 +169,7 @@ public class Hw_3_tasks {
     }
 
 
-    public void maxNumberOfArr() {
+    public void MaxNumberOfArr() {
 
         int i;
         int[] mas = {5, 9, 2, -1, 6, 15, 10};
@@ -185,7 +185,7 @@ public class Hw_3_tasks {
     }
 
 
-    public void replaceMaxAndMinNumArr() {
+    public void ReplaceMaxAndMinNumArr() {
 
         int i;
         int rep;
