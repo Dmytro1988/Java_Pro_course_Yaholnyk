@@ -19,6 +19,7 @@ public class Car {
     }
 
     public double calculateFuelToRefill(double fuelLeft1) {
+
         return  fuelLeft1;
     }
 
@@ -37,6 +38,7 @@ public class Car {
         double remainingFuel = fuelLevel - fuelConsumed;
         double refuelAmount =  tankCapacity - remainingFuel;
         return refuelAmount * fuelPrice;
+
     }
 
     public double calculateTotalCostForDistance(double refuelCost2, double refuelCost1) {
@@ -46,7 +48,6 @@ public class Car {
        return tankCapacity - refuelAmount3;
 
    }
-
 
 }
 
