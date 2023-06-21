@@ -16,7 +16,6 @@ public class StringUpperCaseCollection {
             return upperCasePairs;
         }
 
-
 }
 
 

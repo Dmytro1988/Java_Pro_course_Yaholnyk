@@ -8,17 +8,17 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CollectionAverageIntegerTest {
 
-
     @Test
-    public void
-    testAverage() {
+    void calAverage() {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
-        double average = list.stream()
-                .mapToInt(Integer::intValue)
-                .average().
-                orElse(Double.NaN);
-        assertEquals(3.0, average, 0.00001);
+        assertEquals(3.0, new CollectionAverageInteger().calAverages(list));
+
     }
 
 
+
 }
+
+
+
+

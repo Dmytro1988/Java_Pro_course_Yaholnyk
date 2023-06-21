@@ -1,19 +1,16 @@
 package app.task_1;
 
-import java.util.Arrays;
+
 import java.util.List;
 
 public class CollectionAverageInteger {
 
-    public static void main(String[] args) {
+    public double calAverages(List<Integer> list) {
 
-        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
-
-        double average = list.stream()
+       double average = list.stream()
                 .mapToInt(Integer::intValue)
                 .average()
                 .orElse(Double.NaN);
-        System.out.println("Середнє значення: " + average);
-
+        return average;
     }
 }
