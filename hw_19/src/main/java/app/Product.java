@@ -14,6 +14,11 @@ public class Product {
     private final boolean discount;
     private final  LocalDate dateCreate;
 
+    private final double discountAmount = 0.9;
+    public double getDiscountAmount() {
+        return discountAmount;
+    }
+
     public int getId() {
         return id;
     }
@@ -44,7 +49,6 @@ public class Product {
         this.price = price;
         this.discount = discount;
         this.dateCreate = dateCreate;
-
 
     }
 

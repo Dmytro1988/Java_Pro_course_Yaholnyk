@@ -24,7 +24,7 @@ public class ProductService {
                 .filter(product -> product.getType().equals("Book"))
                 .peek(product -> {
                     if (product.isDiscount()) {
-                        double discountedPrice = product.getPrice() * 0.9;
+                        double discountedPrice = product.getPrice() * product.getDiscountAmount();
                         product.setPrice(discountedPrice);
                     }
                 })
