@@ -1,0 +1,11 @@
+2023-07-20 12:03:04.337 INFO Message: Це повідомлення для рівня DEBUG
+ 2023-07-20 12:03:04.346 DEBUG Message: Це повідомлення для рівня INFO
+ 2023-07-20 12:11:16.251 INFO Message: This is a message that is too long.
+ 2023-07-20 12:12:01.789 INFO Message: This is an info message. 2023-07-20 12:12:01.880 INFO Message:
+  This is a message that is too long. 2023-07-20 12:12:01.885 DEBUG Message: This is a debug message.
+  2023-07-20 12:13:21.287 INFO Message: This is an info message.2023-07-20 12:15:58.821 DEBUG Message:
+  This is a debug message. 2023-07-20 12:16:55.197 INFO Message: This is an info message. 2023-07-20 12:17:33.572 DEBUG Message:
+  This is a debug message. 2023-07-20 12:18:11.048 DEBUG Message: This is a debug message. 2023-07-20 12:18:28.976 INFO Message:
+  This is an info message. 2023-07-20 12:18:44.232 INFO Message: This is an info message. 2023-07-20 12:18:44.321 INFO Message:
+  This is a message that is too long. 2023-07-20 12:18:44.326 DEBUG Message: This is a debug message. 2023-07-20 12:23:31.325 INFO
+  Message: This is a message that is too long. 2023-07-20 12:24:28.116 INFO Message: This is a message that is too long.
